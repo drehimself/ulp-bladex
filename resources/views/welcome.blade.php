@@ -81,7 +81,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <div>Laravel</div>
+                    <div>
+                        {{-- @include('components.myAlertOld', ['type' => 'error', 'message' => 'This is my message']) --}}
+                        <my-alert type="error" message="This is my message" />
+                    </div>
                 </div>
 
                 <div class="links">
